@@ -31,8 +31,10 @@ function TwoColumn() {
           </My.GridY>
         </div>
       </div>
-      <div className="w-full bg-[red]">
-        <Outlet />
+      <div className="w-full">
+        <div className="p-4">
+          <Outlet />
+        </div>
       </div>
     </div>
   );
